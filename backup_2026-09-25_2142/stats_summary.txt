@@ -1,0 +1,19 @@
+======================================================================
+STATISTICAL VALIDATION SUMMARY
+======================================================================
+Runs per policy: 30
+
+GOOGLE TRACE — DQN vs baselines:
+   baseline  baseline_mean  dqn_mean  difference  ci_95_lo  ci_95_hi  p_value_mwu  cliffs_delta  significant_p001
+ Always-VM0      -0.999264 -0.340032    0.659233  0.658940  0.659502 1.211780e-12           1.0              True
+     Random      -0.482872 -0.340032    0.142840  0.141215  0.144518 3.019859e-11           1.0              True
+Round-Robin      -0.466290 -0.340032    0.126259  0.124722  0.127708 3.019859e-11           1.0              True
+Greedy-Load      -0.327940 -0.340032   -0.012092 -0.012385 -0.011822 3.019859e-11          -1.0              True
+
+ALIBABA TRACE — DQN vs baselines:
+   baseline  baseline_mean  dqn_mean  difference  ci_95_lo  ci_95_hi  p_value_mwu  cliffs_delta  significant_p001
+ Always-VM0      -0.999704 -0.633782    0.365922  0.365575  0.366283 1.211780e-12      1.000000              True
+     Random      -0.649656 -0.633782    0.015874  0.015175  0.016507 3.019859e-11      1.000000              True
+Round-Robin      -0.639331 -0.633782    0.005549  0.004812  0.006319 3.338389e-11      0.997778              True
+Greedy-Load      -0.642739 -0.633782    0.008956  0.008609  0.009317 3.019859e-11      1.000000              True
+======================================================================
