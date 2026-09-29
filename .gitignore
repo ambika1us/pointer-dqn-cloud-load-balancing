@@ -41,3 +41,10 @@ Thumbs.db
 
 # Logs
 *.log
+# Backups
+backup_*/
+results_backup_*/
+
+# Backups
+backup_*/
+results_backup_*/
